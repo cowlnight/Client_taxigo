@@ -13,4 +13,23 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_sign">SignActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="sex">性別</string>
+    <string name="help">聯絡客服</string>
+    <string name="name">name</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="email">email(optional)</string>
+    <string name="provide_profile">提供乘客姓名電話給司機</string>
+    <string name="cleanall">全部清除</string>
+    <string name="ok_for_signup">確認註冊</string>
 </resources>
