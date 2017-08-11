@@ -103,6 +103,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         });
 
+        Button mOrderButton = (Button) findViewById(R.id.forget_password_login);
+        mOrderButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(LoginActivity.this,GrabOrder.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void populateAutoComplete() {

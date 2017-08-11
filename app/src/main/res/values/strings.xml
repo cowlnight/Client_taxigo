@@ -32,4 +32,6 @@
     <string name="provide_profile">提供乘客姓名電話給司機</string>
     <string name="cleanall">全部清除</string>
     <string name="ok_for_signup">確認註冊</string>
+    <string name="start_location">上車地點:</string>
+    <string name="X">XXX</string>
 </resources>
