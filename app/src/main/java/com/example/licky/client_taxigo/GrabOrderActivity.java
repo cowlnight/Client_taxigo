@@ -14,7 +14,7 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 import com.example.licky.client_taxigo.R;
 import com.example.licky.client_taxigo.GrabOrderAdapter;
-public class GrabOrder extends AppCompatActivity {
+public class GrabOrderActivity extends AppCompatActivity {
 
     ListView opinion_Listview;
     String[] locations = {"台北火車站", "台南火車站", "台中火車站", "台東火車站", "永康火車站",

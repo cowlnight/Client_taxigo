@@ -23,8 +23,6 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -107,7 +105,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mOrderButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(LoginActivity.this,GrabOrder.class);
+                Intent intent=new Intent(LoginActivity.this,GrabOrderActivity.class);
                 startActivity(intent);
             }
         });
